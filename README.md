@@ -5,7 +5,7 @@ This repository contains the core code and documentation for a multi-label Compu
 
 ## 🚀 Live Demo
 The model is deployed with an interactive UI using Gradio. 
-👉 **[Click here to try the model on Hugging Face Spaces](https://huggingface.co/spaces/Ahmedtem/clothes)** *(Replace `#` with your Space URL)*
+👉 **[Click here to try the model on Hugging Face Spaces](https://huggingface.co/spaces/Ahmedtem/clothes)**  
 
 ## 🧠 Model Overview
 * [cite_start]**Framework:** FastAI  
@@ -14,7 +14,7 @@ The model is deployed with an interactive UI using Gradio.
 * [cite_start]**Input Resolution:** Images are processed with a `RandomResizedCrop` of 128x128 pixels[cite: 96].
 
 ## 📊 Dataset
-[cite_start]The model was trained on the `agrigorev/clothing-dataset-full` sourced from Kaggle.
+[https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full]The model was trained on the `agrigorev/clothing-dataset-full` sourced from Kaggle.
 * [cite_start]The dataset spans 20 labels, including T-Shirt, Longsleeve, Pants, Shoes, Shirt, Dress, Outwear, and Shorts[cite: 69].
 * [cite_start]**Data Preprocessing:** The original boolean `kids` column was mapped to explicit 'Kids' and 'Adults' labels [cite: 79][cite_start], and then concatenated with the clothing type to create a comprehensive classification target[cite: 80]. 
 
