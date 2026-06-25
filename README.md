@@ -15,8 +15,8 @@ The model is deployed with an interactive UI using Gradio.
 
 ## 📊 Dataset
 [THE DATASET](https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full) was taked from the `agrigorev/clothing-dataset-full` sourced from Kaggle.
-* The dataset spans 20 labels, including T-Shirt, Longsleeve, Pants, Shoes, Shirt, Dress, Outwear, and Shorts[cite: 69].
-* **Data Preprocessing:** The original boolean `kids` column was mapped to explicit 'Kids' and 'Adults' labels , and then concatenated with the clothing type to create a comprehensive classification target[cite: 80]. 
+* The dataset spans 20 labels, including T-Shirt, Longsleeve, Pants, Shoes, Shirt, Dress, Outwear, and Shorts.
+* **Data Preprocessing:** The original boolean `kids` column was mapped to explicit 'Kids' and 'Adults' labels , and then concatenated with the clothing type to create a comprehensive classification target. 
 
 ## ⚙️ Training & Performance
 * The model was initialized with pre-trained ImageNet weights (`resnet18`) and fine-tuned for 8 epochs.
