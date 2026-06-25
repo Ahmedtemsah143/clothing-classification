@@ -9,12 +9,12 @@ The model is deployed with an interactive UI using Gradio.
 
 ## 🧠 Model Overview
 * **Framework:** FastAI  
-* **Architecture:** Fine-tuned `resnet18` [cite: 110]
+* **Architecture:** Fine-tuned `resnet18` 
 * **Task:** Multi-label Image Classification. It predicts the clothing type (e.g., T-Shirt, Dress) and the target demographic (Kids vs. Adults) simultaneously.
 * **Input Resolution:** Images are processed with a `RandomResizedCrop` of 128x128 pixels.
 
 ## 📊 Dataset
-[https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full]The model was trained on the `agrigorev/clothing-dataset-full` sourced from Kaggle.
+[THE DATASET](https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full) was taked from the `agrigorev/clothing-dataset-full` sourced from Kaggle.
 * The dataset spans 20 labels, including T-Shirt, Longsleeve, Pants, Shoes, Shirt, Dress, Outwear, and Shorts[cite: 69].
 * **Data Preprocessing:** The original boolean `kids` column was mapped to explicit 'Kids' and 'Adults' labels , and then concatenated with the clothing type to create a comprehensive classification target[cite: 80]. 
 
